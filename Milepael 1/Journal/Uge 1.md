@@ -21,5 +21,3 @@ Google det, brug eventuelt AI.
 
 * Hvordan kommer jeg videre med at bygge roveren?
 
-TEEESTTT 
-WHY U NO WORK
