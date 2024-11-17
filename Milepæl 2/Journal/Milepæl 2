@@ -1,0 +1,75 @@
+::::Refleksionsdokument::::
+
+::::Gruppemedlemmer::::
+
+Boris Stefanovic
+Ali Youssef
+Youssuf Kassem
+Conny Ogriseck
+Rikke Hansen
+Franz Rasmussen
+Amir Omic
+
+---
+
+::::Indledning::::
+Dette dokument indeholder en refleksion over arbejdet med design, konstruktion og programmering af armen til roveren. Refleksionen bygger videre på dokumentationen fra sidste milepæl og inkluderer de nye emner, vi har lært og arbejdet med siden da.
+
+---
+
+::::Emner siden sidste aflevering::::
+Siden sidste milepæl har vi gennemgået følgende emner inden for de relevante fag:
+
+Indlejrede elektronik
+- PWM (Pulse Width Modulation): Bruges til præcis kontrol af servoer og motorer.  
+- Strømstyring og kredsløb: Lærte om korrekt dimensionering af strømforsyning til flere komponenter.  
+
+Programmering
+- Funktioner og modulær opbygning: Skabe overskuelig og genanvendelig kode.  
+- Debugging med seriel kommunikation: Brug af ESP32's serielle monitor til fejlfinding.
+
+Projektarbejde
+- Designproces: Iterative metoder til udvikling af armen og prioritering af funktionalitet.  
+- Dokumentation: Lærte at strukturere og beskrive arbejdsgange i Markdown.
+
+---
+
+::::Anvendelse::::
+- Design af armen
+  Vi designede armen til roveren med fokus på at kunne udføre simple gribe- og løftefunktioner. Armen består af følgende dele:
+- Servoer: Bruges til at styre gribemekanismen og bevægelse i led.  
+- 3D-printede dele: Konstruktionen af armen blev designet i CAD og printet for at sikre præcision og vægtoptimering.  
+
+::::Anvendelse af læring i designfasen::::
+- PWM-signalstyring blev anvendt til præcist at styre servoernes positioner.
+- Kredsløbsdesign og strømstyring blev brugt til at sikre, at servoerne modtog tilstrækkelig strøm uden overbelastning af systemet.
+
+---
+
+::::Konstruktion af armen::::
+- Armen blev samlet ved hjælp af skruer og beslag for at sikre stabilitet.  
+- Elektriske forbindelser skal loddes (mangler)
+
+::::Udfordringer og løsninger::::
+- Kode til servo motorer  (Ikke lavet).
+- Servo-styring: PWM-signaler genereres for at bevæge armen præcist.   (Ikke lavet).
+- Fejlhåndtering: Fejlmeddelelser via seriel monitor, hvis servoer ikke reagerer korrekt.  (Ikke lavet).
+
+---
+
+
+::::Debugging og test::::
+- Iterativ test af gribemekanismen med forskellige genstande for at finde optimale vinkler og positioner.  (Ikke lavet).
+
+---
+
+::::Hvad var udfordrende?::::
+- Sikring af tilstrækkelig strøm til flere servoer samtidig var vanskeligt. 
+
+
+---
+
+## Konklusion
+Vi har fået printet og konstrueret en robotarm, som skal integreres med roveren. Gennem anvendelse af læring fra indlejrede elektronik, programmering og projektarbejde er vi blevet i stand til at designe, konstruere og programmere en løsning, der lever op til vores mål.
+
+
