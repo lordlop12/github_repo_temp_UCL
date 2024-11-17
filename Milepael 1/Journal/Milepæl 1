@@ -1,4 +1,4 @@
-Komponentliste der er inkluderet i basen.
+::::Komponentliste der er inkluderet i basen::::
 
 ESP32 microcontroller: Anvendes som hovedkontrolenhed.
 Fire DC-motorer: Bruges til at drive roverens hjul.
@@ -7,3 +7,41 @@ Buzzer: Bruges til at give lydsignaler eller alarmer.   (Ikke anvendt).
 Strømforsyning: Batteri til drift af alle komponenter.
 FPV-kamera (valgfrit): Bruges til visuel navigation (Ikke anvendt).
 Sensorer (f.eks. afstandssensor): Til måling af afstande eller undgåelse af forhindringer. (Ikke anvendt endnu)
+
+
+
+::::Beskrivelse af basen::::
+
+ESP32:
+Funktion: Styrer alle andre komponenter via programmeret kode.
+Brug: Bruges til at modtage input (f.eks. fjernkontrolsignaler) og sende output (f.eks. til motorer og buzzeren).
+Funktionalitet: Gør det muligt for roveren at bevæge sig og udføre specifikke opgaver, såsom at lave lyde med buzzeren.
+
+Motorer og motorstyringsmodul:
+Funktion: Driver roveren.
+Brug: Modtager signaler fra ESP32, der bestemmer motorens retning og hastighed.
+Funktionalitet: Tillader roveren at køre fremad, bakke og dreje.
+
+Buzzer: (Ikke anvendt).
+Funktion: Giver lydsignaler.
+Brug: Programmeret til at udsende lyde baseret på specifikke hændelser (f.eks. start, stop eller alarm).
+
+Strømforsyning:
+Funktion: Leverer strøm til hele systemet.
+Brug: Sikrer tilstrækkelig strøm til motorerne og ESP32 uden afbrydelser.
+
+Sensorer (Ikke relevant pt):
+Funktion: Giver input til ESP32 om omgivelserne.
+Brug: Hjælper roveren med at navigere sikkert og undgå forhindringer.
+
+
+
+::::Udfordringer::::
+
+Integration af motorer med ESP32:
+Udfordring: Motorerne reagerede ikke korrekt på styringssignaler.
+Løsning: Justering af PWM-signalerne og debugging af ledningsforbindelser.
+
+Strømstyring:
+Udfordring: Strømforsyningen var utilstrækkelig til at drive alle komponenter.
+Løsning: Kan ikke huske løsningen, vi legede rundt med strømstyrken.
