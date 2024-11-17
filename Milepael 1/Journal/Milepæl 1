@@ -1,0 +1,9 @@
+Komponentliste der er inkluderet i basen.
+
+ESP32 microcontroller: Anvendes som hovedkontrolenhed.
+Fire DC-motorer: Bruges til at drive roverens hjul.
+Motorstyringsmodul (H-bro): Kontrollerer motorernes retning og hastighed.
+Buzzer: Bruges til at give lydsignaler eller alarmer.   (Ikke anvendt).
+Strømforsyning: Batteri til drift af alle komponenter.
+FPV-kamera (valgfrit): Bruges til visuel navigation (Ikke anvendt).
+Sensorer (f.eks. afstandssensor): Til måling af afstande eller undgåelse af forhindringer. (Ikke anvendt endnu)
